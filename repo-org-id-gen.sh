@@ -4,8 +4,8 @@ read -rsp "Enter your GitHub PAT: " GH_TOKEN
 echo
 export GH_TOKEN
 
-ORG="digitalwitchdemo"
-REPO="ecommerce-final-project"
+ORG="Cloud-Warriors-Pod3"
+REPO="Final-Project-EKS-Infrastructure"
 
 # Get Organization ID
 ORG_RESPONSE=$(curl -fsSL \
