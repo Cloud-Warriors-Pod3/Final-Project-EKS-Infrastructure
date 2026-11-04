@@ -19,7 +19,7 @@ terraform {
   backend "s3" {
     bucket       = "cloud-warriors3-407677427859"
     key          = "eks/terraform.tfstate"
-    region       = "us-west-1"
+    region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
   }
