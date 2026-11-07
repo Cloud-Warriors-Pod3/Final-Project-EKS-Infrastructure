@@ -69,7 +69,7 @@ variable "cluster_endpoint_public_access_cidrs" {
 variable "cluster_admin_arns" {
   description = "Extra IAM users/roles that get cluster-admin. The identity that runs terraform apply (the GitHub OIDC role) is admin automatically, so do NOT list it here."
   type        = list(string)
-  default     = ["arn:aws:iam::060647991200:user/terraform"]
+  default     = ["arn:aws:iam::851904647851:user/cloud-pod3"]
 }
 
 # ---- Worker nodes ----
@@ -183,7 +183,7 @@ variable "efs_transition_to_ia" {
 variable "kubeconfig_bucket" {
   description = "S3 bucket where the admin kubeconfig is uploaded"
   type        = string
-  default     = "cloud-warriors3-407677427859"
+  default     = "cloud6-warriors3-851904647851"
 }
 
 variable "kubeconfig_s3_key" {
