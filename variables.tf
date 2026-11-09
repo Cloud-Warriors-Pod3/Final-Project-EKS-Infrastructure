@@ -1,5 +1,4 @@
 # ---- General ----
-#Tessy wants a tiny change
 variable "aws_region" {
   description = "AWS region to deploy into"
   type        = string
@@ -169,7 +168,7 @@ variable "letsencrypt_email" {
 variable "argocd_hostname" {
   description = "Public hostname for the Argo CD UI (must match manifests/argocd-ingress.yaml)"
   type        = string
-  default     = "argocd.digitalwitch.online"
+  default     = "argocd.cloudwarriors.site"
 }
 
 # ---- EFS ----
