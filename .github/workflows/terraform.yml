@@ -110,7 +110,7 @@ jobs:
       - name: terraform apply
         run: terraform apply -auto-approve tfplan
 
-# # # #   # ------------------------------------------------------------------------
+# # # #   # ----------------------------------------------------------------------
   test:
     name: verify deployment
     needs: [plan-apply]
