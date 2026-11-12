@@ -182,7 +182,7 @@ variable "efs_transition_to_ia" {
 variable "kubeconfig_bucket" {
   description = "S3 bucket where the admin kubeconfig is uploaded"
   type        = string
-  default     = "cloud6-warriors3-851904647851"
+  default     = "cloudwarriors-632494190704"
 }
 
 variable "kubeconfig_s3_key" {
